@@ -69,6 +69,6 @@ class BreedsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def breed_params
-      params.require(:breed).permit(:nome)
+      params.require(:breed).permit(:nome,:detail)
     end
 end
